@@ -8,6 +8,7 @@ doc=BS(result.text,'html.parser')
 
 tags=doc.find_all(["div"],class_='caption')
 
+
 for tag in tags:
     price=tag.find()
     print(tag)
